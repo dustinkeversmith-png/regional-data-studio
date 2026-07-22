@@ -1,0 +1,32 @@
+{
+  "name": "oregon-amoc-fire-visualizer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "generate:mock-data": "python scripts/generate_mock_data.py",
+    "data:fire": "python scripts/fetch_oregon_fire_data.py && python scripts/process_fire_metrics.py && python scripts/build_choropleth_summary.py && python scripts/build_hex_bins.py",
+    "data:firms": "python scripts/fetch_firms_satellite_fire.py",
+    "data:amoc": "python scripts/fetch_amoc_data.py",
+    "data:join": "python scripts/join_fire_amoc_timeseries.py",
+    "data:pipeline": "python scripts/fetch_oregon_fire_data.py && python scripts/fetch_firms_satellite_fire.py && python scripts/fetch_amoc_data.py && python scripts/process_fire_metrics.py && python scripts/build_choropleth_summary.py && python scripts/build_hex_bins.py && python scripts/join_fire_amoc_timeseries.py"
+  },
+  "dependencies": {
+    "@deck.gl/aggregation-layers": "^9.3.4",
+    "@deck.gl/layers": "^9.3.4",
+    "@deck.gl/mapbox": "^9.3.4",
+    "@types/geojson": "^7946.0.16",
+    "d3": "^7.9.0",
+    "deck.gl": "^9.3.4",
+    "echarts": "^6.1.0",
+    "h3-js": "^4.4.0",
+    "maplibre-gl": "^5.24.0"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16"
+  }
+}

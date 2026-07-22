@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing.md",
+                "file": "Coding Help/Data Console Output Viewing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Testing"
+              "title": "Data Console Output Viewing"
             }
           }
         ],
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing.md",
+                "file": "Coding Help/Data Console Output Viewing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Testing"
+              "title": "Backlinks for Data Console Output Viewing"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Testing.md",
+                "file": "Coding Help/Data Console Output Viewing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Testing"
+              "title": "Outgoing links from Data Console Output Viewing"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Testing.md",
+                "file": "Coding Help/Data Console Output Viewing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Testing"
+              "title": "Outline of Data Console Output Viewing"
             }
           }
         ]
@@ -228,11 +228,12 @@
   },
   "active": "bc1accfee6d56561",
   "lastOpenFiles": [
-    "Todo.md",
     "Testing.md",
+    "Coding Help/Data Console Output Viewing.md",
+    "Coding Help",
+    "Todo.md",
     "MODULES.md",
     "Overall Idea.md",
-    "Untitled",
     "Cleaning Up.md",
     "What is going on in here.md",
     "Project 2/implementation_plan.md",
